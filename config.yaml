@@ -1,0 +1,5 @@
+database_url: "postgres://user:pass@localhost:5432/dbname?sslmode=disable"
+server:
+  address: ":8443"
+  tls_cert_file: "server.crt"
+  tls_key_file: "server.key"
